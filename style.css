@@ -1,64 +1,60 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 body{
-    background-color:#548587 ;
+    background-color:#C0C0C0 ;
+}
+.text-center{
     text-align: center;
 }
-.container{
-    height: 70vh;
+.bg-red{
+    background-color: red;
+}
+.mx-auto{
+    margin: auto;
+}
+.m-w-20{
+    max-width: 30vw;
+}
+.button{
+    width:66px ;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    background-color: rgb(146, 208, 163);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.flex{
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
-.game{
-    height: 60vmin;
-    width: 60vmin;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1.5vmin;
-}
-.box{
-    height: 18vmin;
-    width: 18vmin;
-    border-radius: 1rem ;
-    border: none;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
-    font-size: 8vmin;
-    color: #b0413e;
-    background-color: #ffffc7;
-}
-#reset-btn{
-    padding: 1rem;
-    font-size: 1.25rem;
-    background-color: #191913;
-    color: #fff;
-    border-radius: 1rem;
-    border: none;
-}
-#new-btn{
-    padding: 1rem;
-    font-size: 1.25rem;
-    background-color: #191913;
-    color: #fff;
-    border-radius: 1rem;
-    border: none;
-}
-#msg{
-    color: #ffffc7 ;
-    font-size: 8vmin;
-}
-.msg-container{
-    height: 100vmin;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.flex-col{
     flex-direction: column;
-    gap: 4rem;
 }
-.hide{
-    display: none;
+.text-center{
+    align-items: center;
+}
+.row{
+    margin: 8px 0;
+    background-color: rgb(149, 170, 179);
+}
+.row input{
+    width: 291px;
+    font-size: 19px;
+    margin: 0px;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(234, 222, 222);
+}
+.bd{
+    background-color: rgba(228, 56, 56, 0.564);
+    color: black;
+    font-size: 20px;
+}
+.cpage{
+    background-color: rgba(172, 130, 82, 0.372);
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 50px;
 }
